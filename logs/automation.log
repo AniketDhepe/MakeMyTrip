@@ -1,0 +1,39 @@
+22:00:02.434 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+22:00:02.446 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+22:00:02.450 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+22:00:02.453 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+22:00:02.457 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+22:00:02.460 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+22:00:02.461 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+22:00:02.465 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+22:00:02.466 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+22:00:02.467 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+22:00:02.471 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+22:00:02.474 [main] INFO  testCases.TC_03_Hotels - Printed in Excel
+22:00:04.094 [main] INFO  testCases.TC_03_Hotels - Project is Succesfully Done
+22:10:40.476 [main] INFO  testCases.TC_01_CabBooking - _________Cab Booking TestCase Started__________
+22:10:42.021 [main] INFO  testCases.TC_01_CabBooking - Popup Handled
+22:10:43.744 [main] INFO  testCases.TC_01_CabBooking - Clicked on Cab Button
+22:10:47.867 [main] INFO  testCases.TC_01_CabBooking - Clicked search button
+22:10:48.104 [main] INFO  testCases.TC_02_weddingCard - _________Wedding Card TestCase Started__________
+22:10:52.750 [main] INFO  testCases.TC_02_weddingCard - Clicked on GiftCards
+22:10:53.186 [main] INFO  testCases.TC_03_Hotels - _________Hotels TestCase Started__________
+22:11:01.503 [main] INFO  testCases.TC_03_Hotels - clicked on Hotels
+22:11:24.242 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+22:11:24.243 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+22:11:24.487 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+22:11:24.509 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+22:11:24.519 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+22:11:24.534 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+22:11:24.535 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+22:11:24.536 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+22:11:24.540 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+22:11:24.547 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+22:11:24.551 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+22:11:24.555 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+22:11:24.556 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+22:11:24.561 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+22:11:24.562 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+22:11:24.563 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+22:11:24.567 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+22:11:24.571 [main] INFO  testCases.TC_03_Hotels - Printed in Excel

@@ -1,0 +1,61 @@
+15:44:48.242 [main] INFO  TestNG.TC_01_CabBooking - Clicked on Cab Button
+15:44:49.622 [main] INFO  TestNG.TC_01_CabBooking - selected From city
+15:44:55.368 [main] INFO  TestNG.TC_01_CabBooking - selected To city
+15:44:55.782 [main] INFO  TestNG.TC_01_CabBooking - selected date
+15:44:56.195 [main] INFO  TestNG.TC_01_CabBooking - selected Time
+15:44:59.711 [main] INFO  TestNG.TC_01_CabBooking - Clicked search button
+15:45:04.999 [main] INFO  TestNG.TC_01_CabBooking - selected suv
+15:45:05.273 [main] INFO  TestNG.TC_01_CabBooking - Printed Name and price of vehicle with lowest price
+15:45:20.789 [main] INFO  TestNG.TC_02_weddingCard - Clicked on GiftCards
+15:45:21.312 [main] INFO  TestNG.TC_02_weddingCard - Clicked on wedding card
+15:45:25.030 [main] INFO  TestNG.TC_02_weddingCard - Clicked on Email Button
+15:45:25.392 [main] INFO  TestNG.TC_02_weddingCard - send wrong email
+15:45:25.780 [main] INFO  TestNG.TC_02_weddingCard - clicked on buy button	
+15:45:27.984 [main] INFO  TestNG.TC_02_weddingCard - Got Error message
+15:45:32.620 [main] INFO  TestNG.TC_03_Hotels - clicked on Hotels
+15:45:37.474 [main] INFO  TestNG.TC_03_Hotels - clicked on guest
+15:45:38.750 [main] INFO  TestNG.TC_03_Hotels - clicked on adults
+15:45:41.161 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+15:45:41.161 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+15:45:41.276 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+15:45:41.287 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+15:45:41.292 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+15:45:41.299 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+15:45:41.299 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+15:45:41.299 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+15:45:41.302 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+15:45:41.306 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+15:45:41.308 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+15:45:41.310 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+15:45:41.311 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+15:45:41.313 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+15:45:41.314 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+15:45:41.314 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+15:45:41.316 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+15:45:41.319 [main] INFO  TestNG.TC_03_Hotels - Printed in Excel
+15:46:52.980 [main] INFO  TestNG.TC_01_CabBooking - _________Cab Booking TestCase Started__________
+15:46:54.632 [main] INFO  TestNG.TC_01_CabBooking - Popup Handled
+15:46:56.137 [main] INFO  TestNG.TC_01_CabBooking - Clicked on Cab Button
+15:46:58.984 [main] INFO  TestNG.TC_01_CabBooking - selected From city
+15:47:04.836 [main] INFO  TestNG.TC_01_CabBooking - selected To city
+15:47:05.296 [main] INFO  TestNG.TC_01_CabBooking - selected date
+15:47:05.679 [main] INFO  TestNG.TC_01_CabBooking - selected Time
+15:47:17.969 [main] INFO  TestNG.TC_01_CabBooking - Clicked search button
+15:47:18.338 [main] INFO  TestNG.TC_01_CabBooking - selected suv
+15:47:18.579 [main] INFO  TestNG.TC_01_CabBooking - Printed Name and price of vehicle with lowest price
+15:47:21.611 [main] INFO  TestNG.TC_02_weddingCard - Clicked on GiftCards
+15:47:22.326 [main] INFO  TestNG.TC_02_weddingCard - Clicked on wedding card
+15:47:26.098 [main] INFO  TestNG.TC_02_weddingCard - Clicked on Email Button
+15:47:26.480 [main] INFO  TestNG.TC_02_weddingCard - send wrong email
+15:47:26.831 [main] INFO  TestNG.TC_02_weddingCard - clicked on buy button	
+15:47:29.039 [main] INFO  TestNG.TC_02_weddingCard - Got Error message
+15:47:33.603 [main] INFO  TestNG.TC_03_Hotels - clicked on Hotels
+15:47:34.740 [main] INFO  TestNG.TC_03_Hotels - clicked on guest
+15:47:36.804 [main] INFO  TestNG.TC_03_Hotels - clicked on adults
+15:47:39.045 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+15:47:39.045 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+15:47:39.247 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+15:47:39.261 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+15:47:39.268 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+15:47:39.284 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+15:47:39.285 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
