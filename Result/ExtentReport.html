@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">MakeMy Trip</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 6, 2024 10:12:17 pm</span></a>
+<a href="#"><span class="badge badge-primary">Mar 9, 2024 10:10:29 pm</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -66,55 +71,60 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">sanity</a><a class="dropdown-item" href="#">regression</a><a class="dropdown-item" href="#">master</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
-          tag=""
+          tag="master sanity"
           device="">
           <div class="test-detail">
-            <p class="name">txt_From</p>
+            <p class="name">testCases.TC_01_CabBooking</p>
             <p class="text-sm">
-              <span>10:12:28 pm</span> / <span>00:00:00:019</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:11:22 pm</span> / <span>00:00:00:859</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">txt_From</h5>
-<span class='badge badge-success'>03.06.2024 10:12:28 pm</span>
-<span class='badge badge-danger'>03.06.2024 10:12:28 pm</span>
-<span class='badge badge-default'>00:00:00:019</span>
+<h5 class="test-status text-pass">testCases.TC_01_CabBooking</h5>
+<span class='badge badge-success'>03.09.2024 10:11:22 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:11:23 pm</span>
+<span class='badge badge-default'>00:00:00:859</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">sanity</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\Handle_Popup.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\Handle_Popup.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:12:28 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:22 pm</td>
         <td>
-          Test case FAILED is:txt_From
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:12:28 pm</td>
-        <td>
-          Test Case FAILED cause is: java.lang.NullPointerException: Cannot invoke "pageObjects.carBooking.Fromcity()" because "this.cb" is null
+          Test case PASSED is:Handle_Popup
         </td>
       </tr>
   </tbody>
@@ -122,47 +132,46 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="2"
+        <li class="test-item"  status="pass" test-id="2"
           author=""
-          tag=""
+          tag="master sanity"
           device="">
           <div class="test-detail">
-            <p class="name">txt_To</p>
+            <p class="name">testCases.TC_01_CabBooking</p>
             <p class="text-sm">
-              <span>10:12:28 pm</span> / <span>00:00:00:000</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:11:30 pm</span> / <span>00:00:00:397</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">txt_To</h5>
-<span class='badge badge-success'>03.06.2024 10:12:28 pm</span>
-<span class='badge badge-danger'>03.06.2024 10:12:28 pm</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-pass">testCases.TC_01_CabBooking</h5>
+<span class='badge badge-success'>03.09.2024 10:11:30 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:11:31 pm</span>
+<span class='badge badge-default'>00:00:00:397</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">sanity</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\cabButton.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\cabButton.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:12:28 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:30 pm</td>
         <td>
-          Test case FAILED is:txt_To
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:12:28 pm</td>
-        <td>
-          Test Case FAILED cause is: java.lang.NullPointerException: Cannot invoke "pageObjects.carBooking.Tocity()" because "this.cb" is null
+          Test case PASSED is:cabButton
         </td>
       </tr>
   </tbody>
@@ -170,47 +179,46 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="3"
+        <li class="test-item"  status="pass" test-id="3"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
-            <p class="name">Date</p>
+            <p class="name">testCases.TC_01_CabBooking</p>
             <p class="text-sm">
-              <span>10:12:28 pm</span> / <span>00:00:00:001</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:11:32 pm</span> / <span>00:00:00:404</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Date</h5>
-<span class='badge badge-success'>03.06.2024 10:12:28 pm</span>
-<span class='badge badge-danger'>03.06.2024 10:12:28 pm</span>
-<span class='badge badge-default'>00:00:00:001</span>
+<h5 class="test-status text-pass">testCases.TC_01_CabBooking</h5>
+<span class='badge badge-success'>03.09.2024 10:11:32 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:11:32 pm</span>
+<span class='badge badge-default'>00:00:00:404</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\txt_From.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\txt_From.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:12:28 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:32 pm</td>
         <td>
-          Test case FAILED is:Date
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:12:28 pm</td>
-        <td>
-          Test Case FAILED cause is: java.lang.NullPointerException: Cannot invoke "pageObjects.carBooking.selectdate()" because "this.cb" is null
+          Test case PASSED is:txt_From
         </td>
       </tr>
   </tbody>
@@ -218,47 +226,46 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="4"
+        <li class="test-item"  status="pass" test-id="4"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
-            <p class="name">time</p>
+            <p class="name">testCases.TC_01_CabBooking</p>
             <p class="text-sm">
-              <span>10:12:28 pm</span> / <span>00:00:00:001</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:11:38 pm</span> / <span>00:00:00:513</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">time</h5>
-<span class='badge badge-success'>03.06.2024 10:12:28 pm</span>
-<span class='badge badge-danger'>03.06.2024 10:12:28 pm</span>
-<span class='badge badge-default'>00:00:00:001</span>
+<h5 class="test-status text-pass">testCases.TC_01_CabBooking</h5>
+<span class='badge badge-success'>03.09.2024 10:11:38 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:11:39 pm</span>
+<span class='badge badge-default'>00:00:00:513</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\txt_To.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\txt_To.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:12:28 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:38 pm</td>
         <td>
-          Test case FAILED is:time
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:12:28 pm</td>
-        <td>
-          Test Case FAILED cause is: java.lang.NullPointerException: Cannot invoke "pageObjects.carBooking.Time()" because "this.cb" is null
+          Test case PASSED is:txt_To
         </td>
       </tr>
   </tbody>
@@ -266,47 +273,46 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="5"
+        <li class="test-item"  status="pass" test-id="5"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
-            <p class="name">SUV</p>
+            <p class="name">testCases.TC_01_CabBooking</p>
             <p class="text-sm">
-              <span>10:12:28 pm</span> / <span>00:00:00:000</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:11:39 pm</span> / <span>00:00:00:351</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">SUV</h5>
-<span class='badge badge-success'>03.06.2024 10:12:28 pm</span>
-<span class='badge badge-danger'>03.06.2024 10:12:28 pm</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-pass">testCases.TC_01_CabBooking</h5>
+<span class='badge badge-success'>03.09.2024 10:11:39 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:11:39 pm</span>
+<span class='badge badge-default'>00:00:00:351</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\Date.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\Date.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:12:28 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:39 pm</td>
         <td>
-          Test case FAILED is:SUV
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:12:28 pm</td>
-        <td>
-          Test Case FAILED cause is: java.lang.NullPointerException: Cannot invoke "pageObjects.carBooking.SUV()" because "this.cb" is null
+          Test case PASSED is:Date
         </td>
       </tr>
   </tbody>
@@ -314,47 +320,46 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="6"
+        <li class="test-item"  status="pass" test-id="6"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
-            <p class="name">Printing_Lowest_price</p>
+            <p class="name">testCases.TC_01_CabBooking</p>
             <p class="text-sm">
-              <span>10:12:28 pm</span> / <span>00:00:00:000</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:11:40 pm</span> / <span>00:00:00:371</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Printing_Lowest_price</h5>
-<span class='badge badge-success'>03.06.2024 10:12:28 pm</span>
-<span class='badge badge-danger'>03.06.2024 10:12:28 pm</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-pass">testCases.TC_01_CabBooking</h5>
+<span class='badge badge-success'>03.09.2024 10:11:40 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:11:40 pm</span>
+<span class='badge badge-default'>00:00:00:371</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\time.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\time.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:12:28 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:40 pm</td>
         <td>
-          Test case FAILED is:Printing_Lowest_price
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:12:28 pm</td>
-        <td>
-          Test Case FAILED cause is: java.lang.NullPointerException: Cannot invoke "pageObjects.carBooking.Printvalue()" because "this.cb" is null
+          Test case PASSED is:time
         </td>
       </tr>
   </tbody>
@@ -362,55 +367,46 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="7"
+        <li class="test-item"  status="pass" test-id="7"
           author=""
-          tag=""
+          tag="master sanity"
           device="">
           <div class="test-detail">
-            <p class="name">Wedding_Card</p>
+            <p class="name">testCases.TC_01_CabBooking</p>
             <p class="text-sm">
-              <span>10:12:49 pm</span> / <span>00:00:00:004</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:11:47 pm</span> / <span>00:00:00:291</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Wedding_Card</h5>
-<span class='badge badge-success'>03.06.2024 10:12:49 pm</span>
-<span class='badge badge-danger'>03.06.2024 10:12:49 pm</span>
-<span class='badge badge-default'>00:00:00:004</span>
+<h5 class="test-status text-pass">testCases.TC_01_CabBooking</h5>
+<span class='badge badge-success'>03.09.2024 10:11:47 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:11:47 pm</span>
+<span class='badge badge-default'>00:00:00:291</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">sanity</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\search.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\search.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:12:49 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:47 pm</td>
         <td>
-          Test case FAILED is:Wedding_Card
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:12:49 pm</td>
-        <td>
-          Test Case FAILED cause is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//img[@alt='giftcard'])[1]"}
-  (Session info: chrome=120.0.6099.130)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1595923f594da55822bbebe46561dfb7, findElement {using=xpath, value=(//img[@alt='giftcard'])[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55677/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1595923f594da55822bbebe46561dfb7
+          Test case PASSED is:search
         </td>
       </tr>
   </tbody>
@@ -418,55 +414,46 @@ Session ID: 1595923f594da55822bbebe46561dfb7
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="8"
+        <li class="test-item"  status="pass" test-id="8"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
-            <p class="name">Emailbutton</p>
+            <p class="name">testCases.TC_01_CabBooking</p>
             <p class="text-sm">
-              <span>10:13:09 pm</span> / <span>00:00:00:000</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:11:48 pm</span> / <span>00:00:00:260</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Emailbutton</h5>
-<span class='badge badge-success'>03.06.2024 10:13:09 pm</span>
-<span class='badge badge-danger'>03.06.2024 10:13:09 pm</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-pass">testCases.TC_01_CabBooking</h5>
+<span class='badge badge-success'>03.09.2024 10:11:48 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:11:49 pm</span>
+<span class='badge badge-default'>00:00:00:260</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\SUV.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\SUV.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:13:09 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:48 pm</td>
         <td>
-          Test case FAILED is:Emailbutton
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:13:09 pm</td>
-        <td>
-          Test Case FAILED cause is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@data-cy='DeliveryModes_444'][2]"}
-  (Session info: chrome=120.0.6099.130)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1595923f594da55822bbebe46561dfb7, findElement {using=xpath, value=//li[@data-cy='DeliveryModes_444'][2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55677/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1595923f594da55822bbebe46561dfb7
+          Test case PASSED is:SUV
         </td>
       </tr>
   </tbody>
@@ -474,51 +461,46 @@ Session ID: 1595923f594da55822bbebe46561dfb7
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="9"
+        <li class="test-item"  status="pass" test-id="9"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
-            <p class="name">SendEmail</p>
+            <p class="name">testCases.TC_01_CabBooking</p>
             <p class="text-sm">
-              <span>10:13:12 pm</span> / <span>00:00:00:002</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:11:49 pm</span> / <span>00:00:00:198</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">SendEmail</h5>
-<span class='badge badge-success'>03.06.2024 10:13:12 pm</span>
-<span class='badge badge-danger'>03.06.2024 10:13:12 pm</span>
-<span class='badge badge-default'>00:00:00:002</span>
+<h5 class="test-status text-pass">testCases.TC_01_CabBooking</h5>
+<span class='badge badge-success'>03.09.2024 10:11:49 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:11:49 pm</span>
+<span class='badge badge-default'>00:00:00:198</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\Printing_Lowest_price.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\Printing_Lowest_price.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:13:12 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:49 pm</td>
         <td>
-          Test case FAILED is:SendEmail
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:13:12 pm</td>
-        <td>
-          Test Case FAILED cause is: org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //input[@name='emailId']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: driver.version: RemoteWebDriver
+          Test case PASSED is:Printing_Lowest_price
         </td>
       </tr>
   </tbody>
@@ -526,55 +508,45 @@ Driver info: driver.version: RemoteWebDriver
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="10"
+        <li class="test-item"  status="pass" test-id="10"
           author=""
-          tag=""
+          tag="sanity"
           device="">
           <div class="test-detail">
-            <p class="name">BuyButton</p>
+            <p class="name">testCases.TC_02_weddingCard</p>
             <p class="text-sm">
-              <span>10:13:13 pm</span> / <span>00:00:00:001</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:11:54 pm</span> / <span>00:00:00:415</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">BuyButton</h5>
-<span class='badge badge-success'>03.06.2024 10:13:13 pm</span>
-<span class='badge badge-danger'>03.06.2024 10:13:13 pm</span>
-<span class='badge badge-default'>00:00:00:001</span>
+<h5 class="test-status text-pass">testCases.TC_02_weddingCard</h5>
+<span class='badge badge-success'>03.09.2024 10:11:54 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:11:55 pm</span>
+<span class='badge badge-default'>00:00:00:415</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\Gift_cards.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\Gift_cards.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:13:13 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:54 pm</td>
         <td>
-          Test case FAILED is:BuyButton
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:13:13 pm</td>
-        <td>
-          Test Case FAILED cause is: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1595923f594da55822bbebe46561dfb7, findElement {using=xpath, value=//button[normalize-space()='BUY NOW']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55677/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1595923f594da55822bbebe46561dfb7
+          Test case PASSED is:Gift_cards
         </td>
       </tr>
   </tbody>
@@ -582,55 +554,46 @@ Session ID: 1595923f594da55822bbebe46561dfb7
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="11"
+        <li class="test-item"  status="pass" test-id="11"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
-            <p class="name">error</p>
+            <p class="name">testCases.TC_02_weddingCard</p>
             <p class="text-sm">
-              <span>10:13:13 pm</span> / <span>00:00:00:001</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:11:55 pm</span> / <span>00:00:00:190</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">error</h5>
-<span class='badge badge-success'>03.06.2024 10:13:13 pm</span>
-<span class='badge badge-danger'>03.06.2024 10:13:13 pm</span>
-<span class='badge badge-default'>00:00:00:001</span>
+<h5 class="test-status text-pass">testCases.TC_02_weddingCard</h5>
+<span class='badge badge-success'>03.09.2024 10:11:55 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:11:55 pm</span>
+<span class='badge badge-default'>00:00:00:190</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\Wedding_Card.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\Wedding_Card.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:13:13 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:55 pm</td>
         <td>
-          Test case FAILED is:error
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:13:13 pm</td>
-        <td>
-          Test Case FAILED cause is: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1595923f594da55822bbebe46561dfb7, findElement {using=xpath, value=(//p[@class='red-text font11 append-top5'])[3]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55677/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1595923f594da55822bbebe46561dfb7
+          Test case PASSED is:Wedding_Card
         </td>
       </tr>
   </tbody>
@@ -638,55 +601,46 @@ Session ID: 1595923f594da55822bbebe46561dfb7
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="12"
+        <li class="test-item"  status="pass" test-id="12"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
-            <p class="name">Guest</p>
+            <p class="name">testCases.TC_02_weddingCard</p>
             <p class="text-sm">
-              <span>10:13:13 pm</span> / <span>00:00:00:002</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:11:59 pm</span> / <span>00:00:00:160</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Guest</h5>
-<span class='badge badge-success'>03.06.2024 10:13:13 pm</span>
-<span class='badge badge-danger'>03.06.2024 10:13:13 pm</span>
-<span class='badge badge-default'>00:00:00:002</span>
+<h5 class="test-status text-pass">testCases.TC_02_weddingCard</h5>
+<span class='badge badge-success'>03.09.2024 10:11:59 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:12:00 pm</span>
+<span class='badge badge-default'>00:00:00:160</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\Emailbutton.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\Emailbutton.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:13:13 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:59 pm</td>
         <td>
-          Test case FAILED is:Guest
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:13:13 pm</td>
-        <td>
-          Test Case FAILED cause is: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1595923f594da55822bbebe46561dfb7, findElement {using=xpath, value=//input[@id='guest']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55677/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1595923f594da55822bbebe46561dfb7
+          Test case PASSED is:Emailbutton
         </td>
       </tr>
   </tbody>
@@ -694,55 +648,46 @@ Session ID: 1595923f594da55822bbebe46561dfb7
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="13"
+        <li class="test-item"  status="pass" test-id="13"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
-            <p class="name">adults</p>
+            <p class="name">testCases.TC_02_weddingCard</p>
             <p class="text-sm">
-              <span>10:13:13 pm</span> / <span>00:00:00:003</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:12:00 pm</span> / <span>00:00:00:143</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">adults</h5>
-<span class='badge badge-success'>03.06.2024 10:13:13 pm</span>
-<span class='badge badge-danger'>03.06.2024 10:13:13 pm</span>
-<span class='badge badge-default'>00:00:00:003</span>
+<h5 class="test-status text-pass">testCases.TC_02_weddingCard</h5>
+<span class='badge badge-success'>03.09.2024 10:12:00 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:12:00 pm</span>
+<span class='badge badge-default'>00:00:00:143</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\SendEmail.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\SendEmail.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:13:13 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:00 pm</td>
         <td>
-          Test case FAILED is:adults
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:13:13 pm</td>
-        <td>
-          Test Case FAILED cause is: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1595923f594da55822bbebe46561dfb7, findElement {using=xpath, value=(//div[@class='gstSlct'])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55677/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1595923f594da55822bbebe46561dfb7
+          Test case PASSED is:SendEmail
         </td>
       </tr>
   </tbody>
@@ -750,55 +695,281 @@ Session ID: 1595923f594da55822bbebe46561dfb7
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="14"
+        <li class="test-item"  status="pass" test-id="14"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
-            <p class="name">ExcelIntegration</p>
+            <p class="name">testCases.TC_02_weddingCard</p>
             <p class="text-sm">
-              <span>10:13:14 pm</span> / <span>00:00:00:000</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:12:00 pm</span> / <span>00:00:00:196</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">ExcelIntegration</h5>
-<span class='badge badge-success'>03.06.2024 10:13:14 pm</span>
-<span class='badge badge-danger'>03.06.2024 10:13:14 pm</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-pass">testCases.TC_02_weddingCard</h5>
+<span class='badge badge-success'>03.09.2024 10:12:00 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:12:01 pm</span>
+<span class='badge badge-default'>00:00:00:196</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\BuyButton.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\BuyButton.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:13:14 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:00 pm</td>
         <td>
-          Test case FAILED is:ExcelIntegration
+          Test case PASSED is:BuyButton
         </td>
       </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="master regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_02_weddingCard</p>
+            <p class="text-sm">
+              <span>10:12:03 pm</span> / <span>00:00:00:229</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_02_weddingCard</h5>
+<span class='badge badge-success'>03.09.2024 10:12:03 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:12:03 pm</span>
+<span class='badge badge-default'>00:00:00:229</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\error.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\error.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>10:13:14 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:03 pm</td>
         <td>
-          Test Case FAILED cause is: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1595923f594da55822bbebe46561dfb7, findElements {using=xpath, value=//li[@data-cy='GuestSelect$$_323']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55677/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1595923f594da55822bbebe46561dfb7
+          Test case PASSED is:error
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag="sanity"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_03_Hotels</p>
+            <p class="text-sm">
+              <span>10:12:07 pm</span> / <span>00:00:00:280</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_03_Hotels</h5>
+<span class='badge badge-success'>03.09.2024 10:12:07 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:12:08 pm</span>
+<span class='badge badge-default'>00:00:00:280</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\hotels.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\hotels.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:07 pm</td>
+        <td>
+          Test case PASSED is:hotels
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag="master regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_03_Hotels</p>
+            <p class="text-sm">
+              <span>10:12:09 pm</span> / <span>00:00:00:374</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_03_Hotels</h5>
+<span class='badge badge-success'>03.09.2024 10:12:09 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:12:09 pm</span>
+<span class='badge badge-default'>00:00:00:374</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\Guest.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\Guest.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:09 pm</td>
+        <td>
+          Test case PASSED is:Guest
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag="master regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_03_Hotels</p>
+            <p class="text-sm">
+              <span>10:12:11 pm</span> / <span>00:00:00:284</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_03_Hotels</h5>
+<span class='badge badge-success'>03.09.2024 10:12:11 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:12:11 pm</span>
+<span class='badge badge-default'>00:00:00:284</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\adults.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\adults.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:11 pm</td>
+        <td>
+          Test case PASSED is:adults
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag="master regression sanity"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_03_Hotels</p>
+            <p class="text-sm">
+              <span>10:12:14 pm</span> / <span>00:00:00:322</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_03_Hotels</h5>
+<span class='badge badge-success'>03.09.2024 10:12:14 pm</span>
+<span class='badge badge-danger'>03.09.2024 10:12:15 pm</span>
+<span class='badge badge-default'>00:00:00:322</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">sanity</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\ExcelIntegration.png' src="C:\Users\2303848\eclipse-workspace\Hackathon\Screenshots\ExcelIntegration.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:14 pm</td>
+        <td>
+          Test case PASSED is:ExcelIntegration
         </td>
       </tr>
   </tbody>
@@ -815,30 +986,383 @@ Session ID: 1595923f594da55822bbebe46561dfb7
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="container-fluid p-4 view dashboard-view">
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">sanity</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>sanity</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:22 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:30 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:47 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:54 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>testCases.TC_02_weddingCard</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:12:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>testCases.TC_03_Hotels</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:12:14 pm</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>testCases.TC_03_Hotels</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>14</span>
+</span>
+<p class="name">regression</p>
+<p class="duration text-sm">14 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>regression</h4>
+<span status="pass" class='badge log pass-bg'>14 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:49 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>testCases.TC_02_weddingCard</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>testCases.TC_02_weddingCard</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:12:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>testCases.TC_02_weddingCard</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:12:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>testCases.TC_02_weddingCard</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:12:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>testCases.TC_02_weddingCard</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:12:09 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>testCases.TC_03_Hotels</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:12:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>testCases.TC_03_Hotels</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:12:14 pm</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>testCases.TC_03_Hotels</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>17</span>
+</span>
+<p class="name">master</p>
+<p class="duration text-sm">17 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>master</h4>
+<span status="pass" class='badge log pass-bg'>17 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:22 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:30 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:47 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:49 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>testCases.TC_01_CabBooking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>testCases.TC_02_weddingCard</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:11:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>testCases.TC_02_weddingCard</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:12:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>testCases.TC_02_weddingCard</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:12:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>testCases.TC_02_weddingCard</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:12:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>testCases.TC_02_weddingCard</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:12:09 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>testCases.TC_03_Hotels</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:12:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>testCases.TC_03_Hotels</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:12:14 pm</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>testCases.TC_03_Hotels</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
 <div class="row">
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 6, 2024 10:12:17 pm</h3>
+<h3>Mar 9, 2024 10:10:29 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 6, 2024 10:13:15 pm</h3>
+<h3>Mar 9, 2024 10:12:19 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>0</h3>
+<h3>19</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>14</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -854,12 +1378,12 @@ Session ID: 1595923f594da55822bbebe46561dfb7
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> tests passed
+<div><small data-tooltip='100%'>
+<b>19</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='100%'><b>14</b> tests failed,
+<small data-tooltip='0%'><b>0</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -877,9 +1401,9 @@ Session ID: 1595923f594da55822bbebe46561dfb7
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div><small data-tooltip='100%'><b>19</b> events passed</small></div>
 <div>
-<small data-tooltip='100%'><b>28</b> events failed,
+<small data-tooltip='0%'><b>0</b> events failed,
 <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -896,10 +1420,43 @@ Session ID: 1595923f594da55822bbebe46561dfb7
 </div></div>
 <script>
 var timeline = {
-"txt_From":0.019,"txt_To":0,"Date":0.001,"time":0.001,"SUV":0,"Printing_Lowest_price":0,"Wedding_Card":0.004,"Emailbutton":0,"SendEmail":0.002,"BuyButton":0.001,"error":0.001,"Guest":0.002,"adults":0.003,"ExcelIntegration":0
+"testCases.TC_01_CabBooking":0.859,"testCases.TC_01_CabBooking":0.397,"testCases.TC_01_CabBooking":0.404,"testCases.TC_01_CabBooking":0.513,"testCases.TC_01_CabBooking":0.351,"testCases.TC_01_CabBooking":0.371,"testCases.TC_01_CabBooking":0.291,"testCases.TC_01_CabBooking":0.26,"testCases.TC_01_CabBooking":0.198,"testCases.TC_02_weddingCard":0.415,"testCases.TC_02_weddingCard":0.19,"testCases.TC_02_weddingCard":0.16,"testCases.TC_02_weddingCard":0.143,"testCases.TC_02_weddingCard":0.196,"testCases.TC_02_weddingCard":0.229,"testCases.TC_03_Hotels":0.28,"testCases.TC_03_Hotels":0.374,"testCases.TC_03_Hotels":0.284,"testCases.TC_03_Hotels":0.322
 };
 </script>
 <div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>sanity</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>regression</td>
+<td>14</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>master</td>
+<td>17</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
 <div class="col-lg-6 col-md-12 sysenv-container">
 <div class="card">
 <div class="card-header"><p>System/Environment</p></div>
@@ -908,7 +1465,7 @@ var timeline = {
 <tbody>
 <tr>
 <td>Groups</td>
-<td>[regression]</td>
+<td>[sanity, regression, master]</td>
 </tr>
 </tbody>
 </table></div>
@@ -919,8 +1476,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
-failParent: 14,
+passParent: 19,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -936,8 +1493,8 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 0,
-failEvents: 28,
+passEvents: 19,
+failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,
 infoEvents: 0

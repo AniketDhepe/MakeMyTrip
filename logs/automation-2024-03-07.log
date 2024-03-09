@@ -1,0 +1,59 @@
+17:02:05.698 [main] INFO  testCases.TC_03_Hotels - Project is Succesfully Done
+17:03:46.141 [main] INFO  testCases.TC_01_CabBooking - _________Cab Booking TestCase Started__________
+17:04:06.357 [main] INFO  testCases.TC_01_CabBooking - Popup Handled
+17:04:06.767 [main] INFO  testCases.TC_01_CabBooking - Clicked on Cab Button
+17:04:08.085 [main] INFO  testCases.TC_01_CabBooking - selected From city
+17:04:13.950 [main] INFO  testCases.TC_01_CabBooking - selected To city
+17:04:14.160 [main] INFO  testCases.TC_01_CabBooking - selected date
+17:04:14.455 [main] INFO  testCases.TC_01_CabBooking - selected Time
+17:04:18.160 [main] INFO  testCases.TC_01_CabBooking - Clicked search button
+17:04:20.499 [main] INFO  testCases.TC_01_CabBooking - selected suv
+17:04:20.626 [main] INFO  testCases.TC_01_CabBooking - Printed Name and price of vehicle with lowest price
+17:04:20.634 [main] INFO  testCases.TC_02_weddingCard - _________Wedding Card TestCase Started__________
+17:04:22.946 [main] INFO  testCases.TC_02_weddingCard - Clicked on GiftCards
+17:04:23.502 [main] INFO  testCases.TC_02_weddingCard - Clicked on wedding card
+17:04:27.534 [main] INFO  testCases.TC_02_weddingCard - Clicked on Email Button
+17:04:27.825 [main] INFO  testCases.TC_02_weddingCard - send wrong email
+17:04:28.136 [main] INFO  testCases.TC_02_weddingCard - clicked on buy button	
+17:04:30.204 [main] INFO  testCases.TC_02_weddingCard - Got Error message
+17:04:30.208 [main] INFO  testCases.TC_03_Hotels - _________Hotels TestCase Started__________
+17:04:34.890 [main] INFO  testCases.TC_03_Hotels - clicked on Hotels
+17:04:35.828 [main] INFO  testCases.TC_03_Hotels - clicked on guest
+17:04:37.388 [main] INFO  testCases.TC_03_Hotels - clicked on adults
+17:04:39.402 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+17:04:39.402 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+17:04:39.550 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+17:04:39.563 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+17:04:39.568 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+17:04:39.580 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+17:04:39.581 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+17:04:39.581 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+17:04:39.584 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+17:04:39.589 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+17:04:39.593 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+17:04:39.595 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+17:04:39.596 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+17:04:39.598 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+17:04:39.599 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+17:04:39.599 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+17:04:39.603 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+17:04:39.605 [main] INFO  testCases.TC_03_Hotels - Printed in Excel
+17:04:40.923 [main] INFO  testCases.TC_03_Hotels - Project is Succesfully Done
+17:04:51.977 [main] INFO  testCases.TC_01_CabBooking - _________Cab Booking TestCase Started__________
+17:05:11.998 [main] INFO  testCases.TC_01_CabBooking - Popup Handled
+17:05:12.438 [main] INFO  testCases.TC_01_CabBooking - Clicked on Cab Button
+17:05:13.694 [main] INFO  testCases.TC_01_CabBooking - selected From city
+17:05:19.406 [main] INFO  testCases.TC_01_CabBooking - selected To city
+17:05:19.575 [main] INFO  testCases.TC_01_CabBooking - selected date
+17:05:19.954 [main] INFO  testCases.TC_01_CabBooking - selected Time
+17:05:23.454 [main] INFO  testCases.TC_01_CabBooking - Clicked search button
+17:05:24.756 [main] INFO  testCases.TC_01_CabBooking - selected suv
+17:05:24.931 [main] INFO  testCases.TC_01_CabBooking - Printed Name and price of vehicle with lowest price
+17:05:24.935 [main] INFO  testCases.TC_02_weddingCard - _________Wedding Card TestCase Started__________
+17:05:27.451 [main] INFO  testCases.TC_02_weddingCard - Clicked on GiftCards
+17:05:28.028 [main] INFO  testCases.TC_02_weddingCard - Clicked on wedding card
+17:05:31.853 [main] INFO  testCases.TC_02_weddingCard - Clicked on Email Button
+17:05:32.227 [main] INFO  testCases.TC_02_weddingCard - send wrong email
+17:05:32.654 [main] INFO  testCases.TC_02_weddingCard - clicked on buy button	
+17:05:34.732 [main] INFO  testCases.TC_02_weddingCard - Got Error message
+17:05:34.738 [main] INFO  testCases.TC_03_Hotels - _________Hotels TestCase Started__________

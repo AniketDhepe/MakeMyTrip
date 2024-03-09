@@ -9,7 +9,9 @@
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
+        <include name="sanity"/>
         <include name="regression"/>
+        <include name="master"/>
         <exclude name=""/>
       </run>
     </groups>
@@ -21,9 +23,12 @@
           <include name="txt_From"/>
           <include name="Printing_Lowest_price"/>
           <include name="time"/>
+          <include name="search"/>
           <include name="Date"/>
+          <include name="Handle_Popup"/>
           <include name="setup"/>
           <include name="SUV"/>
+          <include name="cabButton"/>
         </methods>
       </class> <!-- testCases.TC_01_CabBooking -->
       <class name="testCases.TC_02_weddingCard">
@@ -33,6 +38,7 @@
           <include name="SendEmail"/>
           <include name="BuyButton"/>
           <include name="Emailbutton"/>
+          <include name="Gift_cards"/>
           <include name="setup"/>
           <include name="Wedding_Card"/>
         </methods>
@@ -41,6 +47,7 @@
         <methods>
           <include name="adults"/>
           <include name="teardown"/>
+          <include name="hotels"/>
           <include name="ExcelIntegration"/>
           <include name="setup"/>
           <include name="Guest"/>
